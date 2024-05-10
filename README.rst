@@ -1,10 +1,7 @@
-.. image:: https://raw.githubusercontent.com/dudulecode/BlockHost/master/src/logo.ico
+.. image:: https://raw.githubusercontent.com/dudulecode/BlockHost/master/src/logo.png
     :width: 16px
     :height: 16px
     :align: left
-
-BlockHost
-====
 
 BlockHost is an easy-to-use tool for managing your Minecraft server.
 It is completly written in Python and can be easily modified by the user.
@@ -19,7 +16,7 @@ be installed in less than 10 minutes.
 When you need help, don't hesitate to create an issue.
 
 Contribution to BlockHost repository
-----------------------------
+-----------
 
 If you have a good idea and you want to contribute to this project, fork this repository and
 `let us know <https://github.com/benediktschmitt/emsm/issues>`_.
