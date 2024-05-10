@@ -15,9 +15,6 @@ be installed in less than 10 minutes.
 
 When you need help, don't hesitate to create an issue.
 
-Contribution to BlockHost repository
---------
-
 If you have a good idea and you want to contribute to this project, fork this repository and
 `let us know <https://github.com/benediktschmitt/emsm/issues>`_.
 
