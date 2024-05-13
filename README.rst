@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/dudulecode/BlockHost/master/src/logo.png
+.. image:: https://raw.githubusercontent.com/dudulecode/BlockHost/master/blockhost/src/logo.png
     :width: 16px
     :height: 16px
     :align: left
