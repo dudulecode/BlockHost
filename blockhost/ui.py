@@ -16,13 +16,13 @@ import win32process
 import pyglet
 import shutil
 
-# # Instance Checker
-# hwnd = ctypes.windll.kernel32.GetConsoleWindow()      
-# if hwnd != 0:      
-#     ctypes.windll.user32.ShowWindow(hwnd, 0)      
-#     ctypes.windll.kernel32.CloseHandle(hwnd)
-#     _, pid = win32process.GetWindowThreadProcessId(hwnd)
-#     os.system('taskkill /PID ' + str(pid) + ' /f')
+# Instance Checker
+hwnd = ctypes.windll.kernel32.GetConsoleWindow()      
+if hwnd != 0:      
+    ctypes.windll.user32.ShowWindow(hwnd, 0)      
+    ctypes.windll.kernel32.CloseHandle(hwnd)
+    _, pid = win32process.GetWindowThreadProcessId(hwnd)
+    os.system('taskkill /PID ' + str(pid) + ' /f')
 
 procs = [p for p in psutil.process_iter() if 'python.exe' in p.name() and __file__ in p.cmdline()]
 if len(procs) > 1:
@@ -48,15 +48,9 @@ def main():
 	if checkServerList():
 		with open('util/server_list.txt') as file_in:
 			for line in file_in:
-				# Troubleshouting: ctypes.windll.user32.MessageBoxW(0, f"{line}", "BlockHost", 0x30)
 				dir = os.listdir(line)
-				# x = line.split("\\")
-				# ctypes.windll.user32.MessageBoxW(0, f"{x}", "BlockHost", 0x30)
-				# serverName = serverName_[]
-				# Start server script: java -Xmx1024M -Xms1024M -jar {file}.jar
 				if 'start.cmd' or 'start.bat' in dir:
 					def startServer():
-						# subprocess.call(['C:\\Windows\\System32\\cmd.exe','/C', f"java -Xmx1024M -Xms1024M -jar {line}\\Server.jar"])
 						print("blockhost: [WARNING] File copying in server folder...")
 						shutil.copy2("template/basic_server.bat", line)
 						print("blockhost: File copied in server folder")
