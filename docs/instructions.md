@@ -7,4 +7,4 @@ It is completly written in Python and can be easily modified by the user.
 2. After, go into BlockHost folder then -> /util/ -> /server_list.txt and type your minecraft server folder path in it.
 - Example:
 ![example1](https://raw.githubusercontent.com/dudulecode/BlockHost/master/docs/example1.png)
-
+<img style="float: right;" src="https://raw.githubusercontent.com/dudulecode/BlockHost/master/docs/example1.png">
