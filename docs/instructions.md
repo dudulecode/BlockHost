@@ -9,5 +9,9 @@ It is completly written in Python and can be easily modified by the user.
 3. After this, download a JAR file for your server (on <a href="https://getbukkit.org/download/spigot">Spigot</a> website for example) and put it in your minecraft server folder. DON'T FORGET TO RENAME IT TO ``Server.jar`` or BlockHost will not be able to run your server.
 4. Run BlockHost and if you followed the steps correctly, you will see your minecraft server folder path and a button called "Start Server" like this:
 
-**Example:** <img src="https://raw.githubusercontent.com/dudulecode/BlockHost/master/docs/example2.png">
+<img src="https://raw.githubusercontent.com/dudulecode/BlockHost/master/docs/example2.png">
+
 5. Don't forget also to install required modules by opening a terminal and going into BlockHost and typing ``pip install -r requirements.txt`` !
+
+> At the current state of BlockHost, you can only run your server and doing stuff on it, but soon you will be able to
+> configure your minecraft server directly on BlockHost !
