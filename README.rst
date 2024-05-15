@@ -10,8 +10,7 @@ Get started
 -----------
 
 Please read the `documentation <https://github.com/dudulecode/BlockHost/blob/main/docs/instructions.md>`_ for
-a full introduction. I tried to keep it simple and short. The EMSM will
-be installed in less than 10 minutes.
+a full introduction.
 
 When you need help, don't hesitate to create an issue.
 
