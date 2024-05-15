@@ -9,7 +9,7 @@ It is completly written in Python and can be easily modified by the user.
 Get started
 -----------
 
-Please read the `online documentation <http://blockhost.readthedocs.org>`_ for
+Please read the `documentation <https://github.com/dudulecode/BlockHost/master/docs/instructions.rst>`_ for
 a full introduction. I tried to keep it simple and short. The EMSM will
 be installed in less than 10 minutes.
 
